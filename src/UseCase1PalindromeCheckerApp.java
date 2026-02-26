@@ -1,0 +1,21 @@
+/*
+ * UseCase1: Application Entry & Welcome Message
+ * Palindrome Checker App
+ * Version: 1.0
+ */
+
+public class UseCase1PalindromeCheckerApp {
+
+    static final String APP_NAME = "Palindrome Checker App";
+    static final String VERSION = "Version 1.0";
+
+    public static void main(String[] args) {
+
+        System.out.println("=====================================");
+        System.out.println(" Welcome to " + APP_NAME);
+        System.out.println(" " + VERSION);
+        System.out.println("=====================================");
+        System.out.println("This application checks whether a given string is a palindrome.");
+        System.out.println("=====================================");
+    }
+}
